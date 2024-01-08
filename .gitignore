@@ -1,0 +1,21 @@
+# Generated folders
+/bin
+/build
+/out
+/target
+/.gradle
+/.idea/*
+/.settings/*
+
+# Generated files
+.DS_Store
+/.project
+/.classpath
+
+# Inclusions
+!/.settings/greclipse.properties
+!/.settings/org.eclipse.jdt.core.prefs
+!/.settings/org.eclipse.jdt.ui.prefs
+!/.settings/org.eclipse.wst.xml.core.prefs
+!/.idea/eclipseCodeFormatter.xml
+deploymentScript.bat

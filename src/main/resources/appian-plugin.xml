@@ -1,0 +1,16 @@
+<appian-plugin name="My Plug-ins playground" key="com.my.plugins">
+
+  <plugin-info>
+    <description>My plugins test playground</description>
+    <vendor name="Ahmad.Albuthom" url="https://github.com/ahmad244" />
+    <version>1.0.1.0</version>
+    <application-version min="17.2" />
+  </plugin-info>
+
+
+  <function-category key="MyCustomFunctionsCategory" name="My Functions Category" />
+
+  <function key="beautifyJsonText" class="com.my.plugins.BeautifyJsonTextClass" />
+
+
+</appian-plugin>
