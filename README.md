@@ -1,26 +1,16 @@
-# PLUG-IN NAME
-PLUG-IN DESCRIPTION
+# Appian Extra Tools
+A bunch of useful Appian custom functions
 
-## NAME Smart Service
-SMART SERVICE DESCRIPTION
 
-### Data Tab
-| Input               | Data Type | Required | Multiple | Description |
-| ------------------- |:---------:|:--------:|:--------:| ----------- |
-| Input One           | Boolean   | Yes      | No       | My Description |
-| Input Two           | Text      | No       | No       | My Description |
-
-| Output              | Data Type | Multiple | Description |
-| --------------------|:---------:|:--------:| ----------- |
-| Output One          | Document  | No       | My Description |
-| Output Two          | Boolean   | No       | My Description |
-
-## NAME Function
-FUNCTION DESCRIPTION
+## beautifyjsontext Function
+beautifies a JSON text using jackson java lib
 
 ### Syntax ###
-`myFunctionName(inputOne, inputTwo)`
+`beautifyjsontext(uglyJson)`
 
 ### Inputs ###
-- inputOne: (DATA TYPE) DESCRIPTION
-- inputTwo: (DATA TYPE) Optional: DESCRIPTION
+- uglyJson: (text) the json to be beautified
+
+### Returns ###
+- Text: beautified JSON
+
