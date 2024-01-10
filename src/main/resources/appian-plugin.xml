@@ -12,5 +12,8 @@
 
   <function key="beautifyJsonText" class="com.my.plugins.BeautifyJsonTextClass" />
 
+  <function key="documentToBase64" class="com.my.plugins.DocumentToBase64" />
+
+	<smart-service name="Document to base64 converter" key="DocumentToBase64SS" class="com.my.plugins.DocumentToBase64SS" /> 
 
 </appian-plugin>
